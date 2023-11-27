@@ -26,6 +26,7 @@ Todos los pasos deben ser realizados desde Ubuntu
 Una vez hemos realizado los pasos que te permitirán crearte el entorno en tu ordenador con las dependencias necesarias para ejecutar el codigo, pasamos a lanzar este codigo tanto pasa el modelo BASE como para MEGA. Antes necesitaremos los modelos de ambas arquitecturas, para BASE (https://drive.google.com/file/d/1W17f9GC60rHU47lUeOEfU--Ra-LTw3Tq/view) y para MEGA (https://drive.google.com/file/d/1ZnAdFafF1vW9Lnpw-RPF1AD_csw61lBY/view).
  
 Comenzaremos con el modelo BASE:
+
 7. $python demo/demo.py ${METHOD} ${CONFIG_FILE} ${CHECKPOINT_FILE} [--suffix ${IMAGE_SUFFIX}] [--visualize-path ${IMAGE-FOLDER}] [--output-folder ${FOLDER}] [--output-video]
 
 python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --suffix=".JPEG" --visualize-path=image_folder --output-folder=visualizacion_BASE --output-video
