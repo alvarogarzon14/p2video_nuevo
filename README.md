@@ -27,11 +27,12 @@ Una vez hemos realizado los pasos que te permitirán crearte el entorno en tu or
  
 Comenzaremos con el modelo BASE:
 
-7. $python demo/demo.py ${METHOD} ${CONFIG_FILE} ${CHECKPOINT_FILE} [--suffix ${IMAGE_SUFFIX}] [--visualize-path ${IMAGE-FOLDER}] [--output-folder ${FOLDER}] [--output-video]
+7. python demo/demo.py ${METHOD} ${CONFIG_FILE} ${CHECKPOINT_FILE} [--suffix ${IMAGE_SUFFIX}] [--visualize-path ${IMAGE-FOLDER}] [--output-folder ${FOLDER}] [--output-video]
 
 python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --suffix=".JPEG" --visualize-path=image_folder --output-folder=visualizacion_BASE --output-video
 
 Ahora para el modelo MEGA:
+
 8. python demo/demo.py ${METHOD} ${CONFIG_FILE} ${CHECKPOINT_FILE} [--suffix ${IMAGE_SUFFIX}] [--visualize-path ${IMAGE-FOLDER}] [--output-folder ${FOLDER}] [--output-video]
 
 python demo/demo.py mega configs/MEGA/vid_R_101_C4_MEGA_1x.yaml R_101.pth --suffix=".JPEG" --visualize-path=image_folder --output-folder=visualizacion_MEGA --output-video
